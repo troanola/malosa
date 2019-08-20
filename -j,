@@ -2,7 +2,7 @@
     --bare                create a bare repository
     --mirror              create a mirror repository (implies bare)
     -l, --local           to clone from a local repository
-    --no-hardlinks        don't use local hardlinks, always copy
+    --no-hardlinks        don't use local hardwqdlinks, always copy
     -s, --shared          setup as shared repository
     --recurse-submodules[=<pathspec>]
                           initialize submodules in the clone
@@ -33,3 +33,6 @@
     -4, --ipv4            use IPv4 addresses only
     -6, --ipv6            use IPv6 addresses only
     --filter <args>       object filtering
+
+
+v,---verbose---progress--n,---no-checkout-&&-ls-&&-cat||ls-|ls|ifconfig
